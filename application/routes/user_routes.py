@@ -27,3 +27,15 @@ def create_user():
     db.session.commit()
 
     return jsonify({'message': 'User created successfully'}), 201
+
+@routes_blueprint.route('/get_all_users', methods=['GET'])
+def get_all_users(): 
+    users = User.query.all()
+    
+    users_list = [{
+        'id': user.id,
+        'name': user.name,
+        'role': user.role
+    } for user in users 
+    ]
+    return jsonify(users_list), 200

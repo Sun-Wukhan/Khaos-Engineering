@@ -1,0 +1,72 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-476-837
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-476-837
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-476-837
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-476-837
+INFO:application.middleware.logging_middleware:Request: GET http://127.0.0.1:5000/
+INFO:app:Request took: 0.00012421607971191406 seconds
+INFO:application.middleware.logging_middleware:Response: 200
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 01:48:15] "GET / HTTP/1.1" 200 -
+INFO:application.middleware.logging_middleware:Request: GET http://127.0.0.1:5000/favicon.ico
+INFO:app:Request took: 0.0005550384521484375 seconds
+INFO:application.middleware.logging_middleware:Response: 404
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 01:48:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/navid/Documents/Dev/DevOps/Khaos-Engineering/application/utils/create_user.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-476-837
+INFO:application.middleware.logging_middleware:Request: POST http://127.0.0.1:5000/create_user
+INFO:app:Request took: 0.11217689514160156 seconds
+INFO:application.middleware.logging_middleware:Response: 201
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 01:52:57] "[35m[1mPOST /create_user HTTP/1.1[0m" 201 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 212-066-021
+INFO:application.middleware.logging_middleware:Request: POST http://127.0.0.1:5000/create_user
+INFO:app:Request took: 0.09764909744262695 seconds
+INFO:application.middleware.logging_middleware:Response: 201
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 14:55:34] "[35m[1mPOST /create_user HTTP/1.1[0m" 201 -
+INFO:werkzeug: * Detected change in '/Users/navid/Documents/Dev/DevOps/Khaos-Engineering/application/routes/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 212-066-021
+INFO:werkzeug: * Detected change in '/Users/navid/Documents/Dev/DevOps/Khaos-Engineering/application/routes/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 212-066-021
+INFO:application.middleware.logging_middleware:Request: GET http://127.0.0.1:5000/get_all_users
+INFO:app:Request took: 0.02152705192565918 seconds
+INFO:application.middleware.logging_middleware:Response: 200
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 15:06:15] "GET /get_all_users HTTP/1.1" 200 -
+INFO:application.middleware.logging_middleware:Request: GET http://127.0.0.1:5000/get_all_users
+INFO:app:Request took: 0.003013134002685547 seconds
+INFO:application.middleware.logging_middleware:Response: 200
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 15:08:37] "GET /get_all_users HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/navid/Documents/Dev/DevOps/Khaos-Engineering/application/routes/kubernetes_routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 212-066-021
+INFO:application.middleware.logging_middleware:Request: GET http://127.0.0.1:5000/k8s/get_all_resources%0A
+INFO:app:Request took: 0.10943984985351562 seconds
+INFO:application.middleware.logging_middleware:Response: 200
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 15:50:22] "GET /k8s/get_all_resources%0A HTTP/1.1" 200 -
+INFO:application.middleware.logging_middleware:Request: GET http://127.0.0.1:5000/k8s/get_all_resources
+INFO:app:Request took: 0.06427693367004395 seconds
+INFO:application.middleware.logging_middleware:Response: 200
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 15:50:57] "GET /k8s/get_all_resources HTTP/1.1" 200 -
